@@ -39,12 +39,14 @@ a:hover, a:active { outline: 0; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-.container { width:1020px; margin: 50px auto 50px; }
+/**.container { width:1020px; margin: 50px auto 50px; }**/
+
+.container { width:480px; margin: 40px 0px auto auto; }
 	
 	
 	
 /** SIDEBAR **/
-#sidebar { min-height: 720px; width:250px; float: left; border-left: 5px solid #fff; background:url(images/sidebar-bg.png); position: relative; }
+#sidebar { min-height: 720px; width:250px; float: right; border-left: 5px solid #fff; background:url(images/sidebar-bg.png); position: relative; }
 #sidebar .logo { display:block; margin: 77px 0px 50px 28px; width: 149px; height: 49px; }
 #sidebar .main-nav > ul > li { position: relative; color: #e5e5e5; padding-left: 33px; font: bold 14px 'Dosis'; line-height: 42px; letter-spacing: 2px; }
 #sidebar .main-nav > ul { margin-left: -5px; }
@@ -60,6 +62,7 @@ a:hover, a:active { outline: 0; }
 #sidebar .main-nav > ul > li ul li:hover { background: #111011; }
 #sidebar .main-nav > ul > li ul li:hover a { color: #fff; }
 
+/**
 #sidebar .social-nav { position: absolute; bottom: 28px; left: 28px; }
 #sidebar .social-nav li { float: left; margin: 0px 5px 0px 0px; }
 #sidebar .social-nav li a { display: block; width: 30px; height: 28px; }
@@ -68,12 +71,10 @@ a:hover, a:active { outline: 0; }
 #sidebar .social-nav li a.rss { background: url(images/social-icons.png) -70px center no-repeat; }
 #sidebar .social-nav li a.bh { background: url(images/social-icons.png) -105px center no-repeat; }
 #sidebar .social-nav li a.db { background: url(images/social-icons.png) right center no-repeat; }
-
-#sidebar .copyright-nav { position: absolute; bottom: 28px; left: 28px;  font: 10px 'Dosis'; color: gray; }
-#sidebar .copyright-nav li { float: left; margin: 0px 5px 0px 0px; }
+**/	
 	
 
-/** CONTENT SLIDER **/	
+/** CONTENT SLIDER
 #content { width: 760px; float: right; }
 #content .slider { position: relative; }
 #content .slider, 
@@ -86,11 +87,11 @@ a:hover, a:active { outline: 0; }
 #content .slider .slider-navigation a.next { background: url(images/slider-arrows.png) left top no-repeat; }
 #content .slider .slider-navigation a.prev { background: url(images/slider-arrows.png) right top no-repeat; }			
 #content .slider .slider-navigation a.next:hover { background: url(images/slider-arrows.png) left bottom no-repeat; }
-#content .slider .slider-navigation a.prev:hover { background: url(images/slider-arrows.png) right bottom no-repeat; }	
+#content .slider .slider-navigation a.prev:hover { background: url(images/slider-arrows.png) right bottom no-repeat; }	 **/	
 
 
 
-/** CONTENT HEADER **/
+/** CONTENT HEADER 
 #content header { background: #f6f6f6; padding: 0px 20px; min-height: 80px; border-bottom: 1px solid #e3e3e3; position: relative; }
 #content header h2 { color: #7c7b7c; font: normal 28px "Dosis"; line-height: 80px; text-shadow: 1px 1px 1px #fff; } 
 #content header h2 span { color: #b1b1b1; font: 200 14px "Dosis"; vertical-align: 5px; text-shadow: none; }
@@ -98,31 +99,31 @@ a:hover, a:active { outline: 0; }
 #content header .gallery-categories a { color: #817e81; margin: 0px 5px; font: 200 14px "Dosis"; line-height: 80px; text-shadow: 1px 1px 1px #fff; }
 #content header .gallery-categories a:hover,
 #content header .gallery-categories a:active,
-#content header .gallery-categories a.active { color: #ff5b5b; }
+#content header .gallery-categories a.active { color: #ff5b5b; }**/
 	
 	
 	
-/** CONTENT ARTICLE **/
+/** CONTENT ARTICLE
 #content > article { background: #ffffff; padding: 20px; min-height: 600px; overflow: hidden; }
 #content > article h3 { color: #121212; font: normal 22px "Dosis"; margin: 0px 0px 20px; }
 #content > article p { color: #8e8b8e; font: 12px Arial, Helvetica, Sans-serif; line-height: 21px; margin: 0px 0px 20px; }
 #content > article ul { margin: 0px 0px 20px 10px; }
 #content > article ul li { color: #8e8b8e; font: 12px Arial, Helvetica, Sans-serif; line-height: 21px; }
 #content > article p.half { width: 49%; float: left; margin-right: 2%; }
-#content > article p.half.last { margin-right: 0; }
+#content > article p.half.last { margin-right: 0; } **/
 
 
 	
-/**SHORTCODES: Alerts**/
+/**SHORTCODES: Alerts
 #content > article p.alert { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; min-height: 20px; width: 96%; padding: 10px 2%; font: normal 14px "Dosis"; text-shadow: 1px 1px 1px #fff; }
 #content > article p.success { background: #d0fcc6 url(images/alert-success.png) 98% center no-repeat; border: 1px solid #8fc28a; color: #679363; }
 #content > article p.error { background: #fbd1d1 url(images/alert-error.png) 98% center no-repeat; border: 1px solid #c7a1a1; color: #916a6a; }
 #content > article p.warning { background: #ebefc4 url(images/alert-warn.png) 98% center no-repeat; border: 1px solid #b3b78e; color: #838855; }
-#content > article p.info { background: #a6cdcd url(images/alert-info.png) 98% center no-repeat; border: 1px solid #768a98; color: #497474; }
+#content > article p.info { background: #a6cdcd url(images/alert-info.png) 98% center no-repeat; border: 1px solid #768a98; color: #497474; }**/
 
 
 
-/**SHORTCODES: Tabs**/
+/**SHORTCODES: Tabs
 #content > article .tabss {
 	margin: 0px 0px 20px;
 	}
@@ -144,11 +145,11 @@ a:hover, a:active { outline: 0; }
 	}
 #content > article .tabs span.current { background: #fff; border-bottom: 1px solid #fff; }
 #content > article .panes { width: 96%; padding: 10px 2%; border: 1px solid #e2e2e2; }
-#content article.tab-pane p:last-child { margin: 0px 0px 0px; }
+#content article.tab-pane p:last-child { margin: 0px 0px 0px; }**/
 	
 	
 	
-/**SHORTCODES: Toggles**/
+/**SHORTCODES: Toggles
 #content > article .toggle { width: 100%; overflow: hidden; margin: 0px 0px 20px; }
 #content > article .toggle h6 { display: block; padding: 8px 15px; border: 1px solid #e2e2e2; margin: 0px; color: #636363; font: normal 14px "Dosis"; cursor: pointer;
 	background: #fcfcfc;
@@ -163,11 +164,11 @@ a:hover, a:active { outline: 0; }
 	}
 #content > article .toggle h6 a { color: #636363; }
 #content > article .toggle .pane { width: 95.5%; padding: 10px 2%; border: 1px solid #e2e2e2; margin: 0px 0px 15px; }
-#content article .toggle .pane p:last-child { margin: 0px 0px 0px; }
+#content article .toggle .pane p:last-child { margin: 0px 0px 0px; }**/
 
 
 
-/**TYPOGRAPHY**/
+/**TYPOGRAPHY
 #content article h1,
 #content article h2,
 #content article h3,
@@ -186,11 +187,11 @@ a:hover, a:active { outline: 0; }
 #content article p a { color: #ff5b5b; }
 #content article p a:hover { text-decoration: underline; }
 #content article blockquote { background: #e9e9e9; border: 1px solid #d3d3d3; border-bottom: 0px; border-right: 0px; border-left-width: 5px; padding: 10px 10px 10px 20px; margin: 0px 0px 20px; }
-#content article blockquote p:last-child { margin: 0px; }
+#content article blockquote p:last-child { margin: 0px; }**/
 
 	
 	
-/**BUTTON**/
+/**BUTTON
 #content article .button,
 #content article button { padding: 10px 20px; display: inline-block; font: normal 14px "Dosis"; text-shadow: 1px 1px 1px #fff; cursor: pointer; }
 #content article .button.gray,
@@ -208,11 +209,11 @@ a:hover, a:active { outline: 0; }
 #content article .button.pink,
 #content article button.pink { background: #d992d5; border: 1px solid #ab72a8; color: #51254f; }
 #content article .button.silver,
-#content article button.silver { background: #91a2ae; border: 1px solid #607380; color: #fff; }   	
+#content article button.silver { background: #91a2ae; border: 1px solid #607380; color: #fff; }   **/	
 	
 	
 	
-/**BLOG**/
+/**BLOG
 #blog .blog-content { width:470px; background: #ffffff; padding:20px; float: left; }
 #blog .blog-content article  { margin: 0px 0px 20px; padding: 0px 0px 20px; border-bottom: 1px solid #eeeeee; }
 #blog .blog-content figure { width: 200px; float: left; margin-right: 20px; }
@@ -223,11 +224,11 @@ a:hover, a:active { outline: 0; }
 #blog .blog-content article .meta { margin-bottom: 10px; color: #ababab; font: italic 12px 'Dosis'; line-height: 20px; }
 #blog .blog-content article div p { color: #8e8b8e; font: normal 12px Arial; line-height: 20px; }
 #blog .blog-content article .meta span{ background: #f6f6f6; }
-#blog .blog-content article figure{ width: 150px; height: 150px; overflow: hidden; float: left; margin-right: 20px; }
+#blog .blog-content article figure{ width: 150px; height: 150px; overflow: hidden; float: left; margin-right: 20px; }**/
 
 
 
-/**SIDEBAR**/
+/**SIDEBAR
 #blog .blog-sidebar { width: 230px; float: right; padding: 20px 20px 20px 0px; background: #fff; }	
 #blog .blog-sidebar .widget { padding: 0px 0px 20px; margin: 0px 0px 20px; border-bottom: 1px solid #eee; }
 #blog .blog-sidebar h4 { color: #121212; font: 300 16px 'Dosis'; margin: 0px 0px 18px; }
@@ -238,11 +239,11 @@ a:hover, a:active { outline: 0; }
 #blog .blog-sidebar .tags a { color: #fff; background: #ff5b5b; font: normal 12px Arial; line-height: 20px; display: inline-block; padding: 0px 10px; margin: 0px 10px 10px 0px; }
 #blog .blog-sidebar .tags a:hover { background: #8e8b8e; }
 #blog .blog-sidebar .ads  a { display: block; width: 110px; height: 110px; float: left; overflow: hidden; margin: 0px 10px 10px 0px; }
-#blog .blog-sidebar .ads  a:nth-child(2n) { margin-right: 0px; }
+#blog .blog-sidebar .ads  a:nth-child(2n) { margin-right: 0px; }**/
 	
 	
 	
-/**PAGINATION**/
+/**PAGINATION
 #pagination { margin: 0px 0px 20px; overflow: hidden; }
 #pagination p { color: #8e8b8e; font: normal 12px Arial; line-height: 30px; float: left; margin-right: 30px; }
 #pagination ul { overflow: hidden; }
@@ -253,11 +254,11 @@ a:hover, a:active { outline: 0; }
 #pagination ul li.active { background: #a1a1a1; text-shadow: 1px 1px 1px #505050; border: 1px solid #6c6c6c; }
 #pagination ul li:hover a,
 #pagination ul li:active a,
-#pagination ul li.active a { color: #fff; }
+#pagination ul li.active a { color: #fff; }**/
 	
 	
 	
-/**POST**/
+/**POST
 #blog .post a.feature-image { display: block; width: 100%; overflow: hidden; margin: 0px 0px 20px; }
 #blog .post a.feature-image img { width: 100%; height: auto; }
 #blog .post blockquote { background: #e9e9e9; border: 1px solid #d3d3d3; border-bottom: 0px; border-right: 0px; border-left-width: 5px; padding: 10px 10px 10px 20px; margin: 0px 0px 20px; }
@@ -267,11 +268,11 @@ a:hover, a:active { outline: 0; }
 #blog .post p strong { font-weight: bold; }
 #blog .post p em { font-style: ittalic; }
 #blog .post h4 { font-family: "Dosis"; color: #121212; margin: 0px 0px 10px; }
-#blog .post h3.title { margin: 0px 0px 10px; }
+#blog .post h3.title { margin: 0px 0px 10px; }**/
 	
 	
 	
-/**COMMENTLIST**/
+/**COMMENTLIST
 #comment-list { border-bottom: 1px solid #eeeeee; margin: 0px 0px 20px; }
 #comment-list h3 { color: #ff5b5b; font: 200 16px "Dosis"; margin: 0px 0px 20px; }
 #comment-list li { overflow: hidden; margin: 0px 0px 20px; }
@@ -282,47 +283,47 @@ a:hover, a:active { outline: 0; }
 #comment-list li .reply-link { color: #868686; font: normal 12px Arial; }
 #comment-list li .reply-link { background: #e3e3e3; padding: 0px 5px; }
 #comment-list li p { color: #8e8b8e; font: normal 12px Arial; line-height: 20px; margin: 15px 0px 0px; }
-#comment-list li.children { margin-left: 79px; border-top: 2px solid #e3e3e3; background: #f6f6f6; padding: 30px 15px; }
+#comment-list li.children { margin-left: 79px; border-top: 2px solid #e3e3e3; background: #f6f6f6; padding: 30px 15px; }**/
 	
 	
 	
-/**COMMENTSFORM**/
+/**COMMENTSFORM
 #comment-form { margin: 0px 0px 20px; }
 #comment-form h3 { color: #ff5b5b; font: 200 16px "Dosis"; margin: 0px 0px 20px; }
 #comment-form input[type="text"] { width: 180px; height: 20px; padding: 10px; border: 1px solid #e3e3e3; border-bottom-width: 2px; margin: 0px 15px 15px 0px; font: normal 12px Arial; line-height: 20px; }
 #comment-form textarea { width: 100%; height: 130px; padding: 10px 5px; border: 1px solid #e3e3e3; border-bottom-width: 2px; margin: 0px 15px 15px 0px; font: normal 12px Arial; line-height: 20px resize: none; }
-#comment-form input[type="submit"] { border: 1px solid #ce3d3d; cursor: pointer; background: #ff5b5b; height: 30px; min-width: 110px; color: #fff; font: normal 12px Arial; }
+#comment-form input[type="submit"] { border: 1px solid #ce3d3d; cursor: pointer; background: #ff5b5b; height: 30px; min-width: 110px; color: #fff; font: normal 12px Arial; }**/
 	
 	
 	
-/**CONTACTUS**/
+/**CONTACTUS
 #map_canvas { width: 100%; height: 400px; margin: 0px 0px 20px; }
 .contact-page > p { margin: 0px 0px 20px; padding: 0px 0px 20px; border-bottom: 1px solid #eeeeee; }
-.contact-page #comment-form textarea { width: 635px; }
+.contact-page #comment-form textarea { width: 635px; }**/
 	
 	
 	
-/**GALLERY**/
+/**GALLERY
 #content article.gallery ul { margin: 0px; }
 .gallery ul li { width: 180px; height: 180px; float: left; overflow: hidden; position: relative; }
 .gallery ul li .overlay { width: 100%; height: 55%; background: rgba(0,0,0,0.8); position: absolute; bottom: 0; left: 0; display: none; }
 #content .gallery ul li .overlay h4 { color: #fff; font: 200 18px "Dosis"; margin: 10px 0px 10px 10px; }
 .gallery ul li .overlay span { color: #888888; font: 200 14px "Dosis"; margin: 0px 0px 0px 10px; }
-.gallery ul li:hover .overlay { display: block; }	
+.gallery ul li:hover .overlay { display: block; }	**/
 
 
 
-/**SEARCHFORM**/
+/**SEARCHFORM
 #search-form { position: absolute; top: 25px; right: 20px; width: 210px; }
 #search-form  input { width: 160px; height: 32px; background: url(images/search-field.png); border: none; padding-left: 50px; color: #8e8b8e; font: normal 12px Arial; }
 #subscribe { width: 100%; position: relative; margin: 20px 0px 0px }
 #subscribe input[type="text"] { width: 136px; padding: 10px 80px 10px 10px; border: 1px solid #e3e3e3; }
 #subscribe input[type="submit"] { cursor: pointer; text-shadow: 1px 1px 1px #fff; font: normal 12px Arial; color: #5c5b5c; padding: 10px; background: #e3e3e3; border: 1px solid #c1c1c1; position: absolute; top: 0px; right: 0px; }
+**/
 
 
-
-/**DEMO**/	
+/**DEMO
 #demo h5 { color: #121212; font: 200 16px "Dosis"; margin: 0px 0px 20px; }
 #demo .button { margin: 0px 10px 10px 0px; }
 #demo .fifty-percent { width: 48%; float: left; margin-right: 4%; }
-#demo .fifty-percent.last { margin-right: 0px; }
+#demo .fifty-percent.last { margin-right: 0px; }**/	
