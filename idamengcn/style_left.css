@@ -56,7 +56,7 @@ a:hover, a:active { outline: 0; }
 #sidebar .main-nav > ul > li:hover > a,
 #sidebar .main-nav > ul > li.active > a { color: #fff; } 
 
-#sidebar .main-nav > ul > li ul { display: none; position: absolute; left: 250px; top: 0px; width: 250px; background:url(images/sidebar-bg.png); z-index: 9999; }
+/**#sidebar .main-nav > ul > li ul { display: none; position: absolute; left: 250px; top: 0px; width: 250px; background:url(images/sidebar-bg.png); z-index: 9999; }**/
 #sidebar .main-nav > ul > li ul li { padding-left: 28px; }
 #sidebar .main-nav > ul > li:hover ul { display: block; }
 #sidebar .main-nav > ul > li ul li:hover { background: #111011; }
