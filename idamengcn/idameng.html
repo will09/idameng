@@ -16,6 +16,7 @@
 				
 				<!-- Style Sheet-->
 				<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css' />
+				<link rel="stylesheet" href="jquery.lightbox-0.5.css" />
 				<link rel="stylesheet" href="style.css" />
 				
 				<!-- favicon -->
@@ -40,11 +41,10 @@
 						<ul>
 							<li><a href="index.html">首页</a></li>
 							<li><a href="about.html">关于我们</a></li>
-							<!--<li><a href="gallery.html">GALLERY</a></li>
-							<li><a href="blog.html">BLOG</a></li>-->
-							<li class="active"><a href="#">idameng品牌</a>
+							</li>
+							<li><a href="">idameng品牌</a>
 									<ul>
-											<li><a href="idameng.html">idameng</a></li>
+											<li class="active"><a href="idameng.html">idameng</a></li>
 											<li><a href="dankolee.html">Danko Lee</a></li>
 									</ul>
 							</li>
@@ -76,20 +76,94 @@
 						<!--header-->
 						<header>
 						
-								<h2>in developing <span> - Sorry this page is in developing.</span></h2>
+								<h2>Gallery <span> - Subtitle goes here.</span></h2>
 								
-								<form id="search-form" method="post" />
-										<input type="text" placeholder="Search Here" value="" />
-								</form>
+								<p class="gallery-categories">
+									<a href="#">Illustration</a>/
+									<a href="#">Branding</a>/
+									<a href="#" class="active">Identity</a>/
+									<a href="#">Webdesign</a>/
+									<a href="#">Photography</a>
+								</p>
 						
 						</header>
 						
 						<!--content-->
-						<article>
+						<article class="gallery">
 						
-								<h5>Sorry!</h5>
-								<p>The page is in developing.</p>
-						
+							<ul class="clearfix">
+								<li>
+									<a href="images/gal1.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal1.jpg" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal2.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal2.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal3.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal3.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal1.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal1.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal2.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal2.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal3.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal3.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal1.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal1.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal2.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal2.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal3.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal3.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+								<li>
+									<a href="images/gal1.jpg" title="Dreamland Stock Photography Agency" class="lightbox"><img src="images/gal1.jpg" alt="" /></a>
+									<div class="overlay">
+										<h4>Dreamland Stock Photography Agency</h4>
+										<span>Photography / Branding</span>
+									</div>
+								</li>
+							</ul>
+								
 						</article>						
 						
 				</section>
@@ -100,7 +174,8 @@
 				<!-- jQuery -->
 				<script src="js/jquery-1.7.1.min.js"></script>
 				<script src="js/jquery.cycle.all.js"></script>
-				<script src="js/tabs-accordian.js"></script>				
+				<script src="js/tabs-accordian.js"></script>
+				<script src="js/jquery.lightbox-0.5.min.js"></script>
 				
 				<!-- Custom JS -->
 				<script src="js/custom.js"></script>		
